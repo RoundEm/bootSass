@@ -1,5 +1,31 @@
 .jumbotron {
   border-radius: 0;
+  background-image: linear-gradient(lightgrey, lavender);
+}
+
+.grid {
+  padding: 0 32px;
+}
+
+.grid div div {
+  padding: 10px;
+}
+
+.imagesContainer {
+  margin: 10px auto;
+  width: 1000px;
+}
+
+.imagesColumn {
+  width: calc(33.33% - 16px);
+  display: block;
+  float: left;
+}
+
+.imagesColumn img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=output.css.map */
