@@ -1,31 +1,52 @@
-.jumbotron {
-  border-radius: 0;
-  background-image: linear-gradient(lightgrey, lavender);
+html {
+  position: relative;
+  min-height: 100vh;
 }
 
-.grid {
+nav {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+a:not(nav) {
+  color: black;
+}
+
+a:not(nav):hover {
+  text-decoration: none;
+  color: grey;
+}
+
+body {
+  margin-bottom: 180px;
+}
+
+.jumbotron {
+  border-radius: 0;
+  background-image: linear-gradient(#e4ddec, white);
+}
+
+.summaries {
   padding: 0 32px;
 }
 
-.grid div div {
-  padding: 10px;
+nav li {
+  margin: 0 7px;
+}
+nav .dropdown-menu a:hover {
+  background-color: #e4ddec;
 }
 
-.imagesContainer {
-  margin: 10px auto;
-  width: 1000px;
+footer {
+  height: 170px;
+  background-image: linear-gradient(#f1eef5, #e4ddec);
+  position: absolute;
+  bottom: 0;
 }
-
-.imagesColumn {
-  width: calc(33.33% - 16px);
-  display: block;
-  float: left;
+footer .container-fluid {
+  padding: 10px 32px 0;
 }
-
-.imagesColumn img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 24px;
+footer .footer-copyright {
+  background-color: #e4ddec;
 }
 
 /*# sourceMappingURL=output.css.map */
